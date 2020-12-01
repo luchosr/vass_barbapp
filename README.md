@@ -19,6 +19,22 @@ En conclusión, aunque esta es una aplicación simple, el desarrollador puede ve
 * Crear, compilar y utilizar el servicio IBM Blockchain Platform.
 * Crear un back-end de blockchain utilizando la API de Hyperledger Fabric
 * Crear y usar un clúster de Kubernetes (gratuito) para implementar y monitorear nuestros nodos de Hyperledger Fabric.
-* Implementar una aplicación Node.js que interactuará con nuestro contrato inteligente implementado
+* Implementar una aplicación Node.js que interactuará con nuestro contrato inteligente instanciado.
+<br>
+
+
+#Diagrama de flujo:
+<br>
+<p align="center">
+  <img src="docs/app-architecture.png">
+</p>
+<br>
+
+#Descripción de flujo:
+1. El operador de blockchain configura el servicio IBM Blockchain Platform 2.5.
+2. IBM Blockchain Platform 2.5 crea una red Hyperledger Fabric en un servicio IBM Kubernetes, y el operador instala y crea una instancia del contrato inteligente en la red.
+3. El servidor de aplicaciones Node.js utiliza Fabric SDK para interactuar con la red desplegada en IBM Blockchain Platform 2.5 y crea API para un cliente web.
+4. El cliente Vue.js utiliza la API de la aplicación Node.js para interactuar con la red.
+5. El usuario interactúa con la interfaz web de Vue.js para emitir su voto y consultar el estado global para ver la clasificación actual de las encuestas.
 
 
