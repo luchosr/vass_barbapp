@@ -37,4 +37,19 @@ En conclusión, aunque esta es una aplicación simple, el desarrollador puede ve
 4. El cliente Vue.js utiliza la API de la aplicación Node.js para interactuar con la red.
 5. El usuario interactúa con la interfaz web de Vue.js para emitir su voto y consultar el estado global para ver la clasificación actual de las encuestas.
 
+#Componentes incluidos
+* [IBM Blockchain Platform](https://console.bluemix.net/docs/services/blockchain/howto/ibp-v2-deploy-iks.html#ibp-v2-deploy-iks) le brinda un control total de su red blockchain con una interfaz de usuario que puede simplificar y acelerar su viaje para implementar y administrar componentes blockchain en IBM Cloud Kubernetes Service.
+* [IBM Cloud Kubernetes Service](https://www.ibm.com/cloud/container-service) crea un clúster de hosts informáticos y despliega contenedores de alta disponibilidad. Un clúster de Kubernetes le permite administrar de forma segura los recursos que necesita para implementar, actualizar y escalar aplicaciones rápidamente.
 
+
+#Tecnologías destacadas
+* [Hyperledger Fabric v1.4](https://hyperledger-fabric.readthedocs.io) es una plataforma para soluciones de contabilidad distribuida, respaldada por una arquitectura modular que ofrece altos grados de confidencialidad, resistencia, flexibilidad y escalabilidad.
+* [Node.js](https://nodejs.org) es un entorno de tiempo de ejecución de JavaScript multiplataforma de código abierto que ejecuta código JavaScript del lado del servidor.
+* [Vue.js 2.6.10](https://vuejs.org/) Vue.js es un marco de JavaScript de código abierto para crear interfaces de usuario y aplicaciones de una sola página.
+
+
+
+## Prerequisitos
+
+ - [Cuenta de IBM Cloud](https://tinyurl.com/y4mzxow5)
+  - [Node v8.x o superior y npm v5.x o superior](https://nodejs.org/en/download/)
