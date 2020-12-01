@@ -53,3 +53,20 @@ En conclusión, aunque esta es una aplicación simple, el desarrollador puede ve
 
  - [Cuenta de IBM Cloud](https://tinyurl.com/y4mzxow5)
   - [Node v8.x o superior y npm v5.x o superior](https://nodejs.org/en/download/)
+
+
+# Pasos para implementación en la nube
+
+1. [Clonar el repositorio](#step-1-clone-the-repo)
+2. [Crear servicio en la nube de IBM](#step-2-create-ibm-cloud-services)
+3. [Construir la red](#step-3-build-a-network)
+4. [Desplegar el contrato inteligente den la red](#step-4-deploy-voterContract-smart-contract-on-the-network)
+5. [Conectar la aplicación con la red](#step-5-connect-application-to-the-network)
+6. [Ejecutar la aplicación](#step-6-run-the-application)
+
+
+## Step 1. Clonar el repositorio
+
+Haz Git clone de este repo en tu ordenador en la carpeta que elijas, luego ve a la carpeta de la webb-app:
+```
+HoreaPorutiu$ git clone URL DEL REPO ACÄ!!!!
